@@ -1,0 +1,16 @@
+#include "./ConfFileParser.h"
+#include "./MapLoader.h"
+#include "../GameSystem.h"
+
+int	main(void)
+{
+  // ConfFileParser	cf("./map1.map");
+  // cf.Dump();
+
+  GS::GameSystem	gs("../PICS/bg.png");
+  MapLoader		m("./map1.map", gs.GetApp_unsafe());
+
+  m.Dump();
+
+  return 0;
+}

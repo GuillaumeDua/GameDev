@@ -1,0 +1,7 @@
+(Inertie, slow, etc ...)
+- DirectionVector :
+  + Speed
+
+Buffs :
+- CB + time token
+- called in entitie's behaviours

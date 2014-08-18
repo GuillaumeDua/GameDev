@@ -1,0 +1,25 @@
+KEYCODES:
+ =VOID
+F=FIRE
+W=WATER
+M=METAL
+S=EARTH
+G=EARTH
+T=TREE
+L=TREE
+
+SPRITES:
+S=./MAP/SPRITES/stone1.png
+G=./MAP/SPRITES/ground1.png
+T=./MAP/SPRITES/wood1.png
+L=./MAP/SPRITES/leaves1.png
+ =./MAP/SPRITES/void.png
+
+MAP:
+width=10
+height=4
+content=[S][S][S][S][S][S][S][S][S][S]\
+[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]\
+[T][T][T][T][T][T][T][T][T][T]\
+[L][L][L][L][L][L][L][L][L][L]\
+[G][G][G][G][G][G][G][G][G][G]
