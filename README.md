@@ -10,3 +10,5 @@ Simple test of game engine
 -> Use SFML for sprites rendering
 -> Use boost for multi-threading and shared ptrs
 
+About the author :
+Guillaume 'Guss' Dua is a C++ softwares designer and developper.
